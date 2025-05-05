@@ -1,0 +1,24 @@
+===== 실행 시간 기록 시작 =====
+실행 시작 시간: Fri Apr 25 12:14:20 UTC 2025
+------------------------------------
+경로: python fizz_coarse/fizz_coarse.py --input_path data/data_aggrefact/aggre_fact_cnndm_sota.json --output_path results_coarse/cnndm_tune/coarse_wr0_wb1_wc0_wm1_ww0.json --doc_label document --summary_label claim --label_label label --score_column FIZZ_score --model_name orca2 --granularity 3G --cuda_device 4 --weight_rouge 0.0 --weight_bert 1.0 --weight_contradiction 0 --weight_min 1.0 --weight_mean 0.0
+실행 시간: 29343초
+------------------------------------
+경로: python fizz_coarse/fizz_coarse.py --input_path data/data_aggrefact/aggre_fact_cnndm_sota.json --output_path results_coarse/cnndm_tune/coarse_wr0_wb1_wc0_wm0_ww1.json --doc_label document --summary_label claim --label_label label --score_column FIZZ_score --model_name orca2 --granularity 3G --cuda_device 4 --weight_rouge 0.0 --weight_bert 1.0 --weight_contradiction 0 --weight_min 0.0 --weight_mean 1.0
+실행 시간: 28776초
+------------------------------------
+경로: python fizz_coarse/fizz_coarse.py --input_path data/data_aggrefact/aggre_fact_cnndm_sota.json --output_path results_coarse/cnndm_tune/coarse_wr0_wb1_wc0_wm0p5_ww0p5.json --doc_label document --summary_label claim --label_label label --score_column FIZZ_score --model_name orca2 --granularity 3G --cuda_device 4 --weight_rouge 0.0 --weight_bert 1.0 --weight_contradiction 0 --weight_min 0.5 --weight_mean 0.5
+실행 시간: 28486초
+------------------------------------
+경로: python fizz_coarse/fizz_coarse.py --input_path data/data_aggrefact/aggre_fact_cnndm_sota.json --output_path results_coarse/cnndm_tune/coarse_wr0p5_wb0p5_wc0_wm1_ww0.json --doc_label document --summary_label claim --label_label label --score_column FIZZ_score --model_name orca2 --granularity 3G --cuda_device 4 --weight_rouge 0.5 --weight_bert 0.5 --weight_contradiction 0 --weight_min 1.0 --weight_mean 0.0
+실행 시간: 28990초
+------------------------------------
+경로: python fizz_coarse/fizz_coarse.py --input_path data/data_aggrefact/aggre_fact_cnndm_sota.json --output_path results_coarse/cnndm_tune/coarse_wr0p5_wb0p5_wc0_wm0_ww1.json --doc_label document --summary_label claim --label_label label --score_column FIZZ_score --model_name orca2 --granularity 3G --cuda_device 4 --weight_rouge 0.5 --weight_bert 0.5 --weight_contradiction 0 --weight_min 0.0 --weight_mean 1.0
+실행 시간: 28578초
+------------------------------------
+경로: python fizz_coarse/fizz_coarse.py --input_path data/data_aggrefact/aggre_fact_cnndm_sota.json --output_path results_coarse/cnndm_tune/coarse_wr0p5_wb0p5_wc0_wm0p5_ww0p5.json --doc_label document --summary_label claim --label_label label --score_column FIZZ_score --model_name orca2 --granularity 3G --cuda_device 4 --weight_rouge 0.5 --weight_bert 0.5 --weight_contradiction 0 --weight_min 0.5 --weight_mean 0.5
+실행 시간: 29085초
+------------------------------------
+모든 스크립트 실행 완료!
+전체 종료 시간: Sun Apr 27 12:21:58 UTC 2025
+===== 실행 시간 기록 종료 =====

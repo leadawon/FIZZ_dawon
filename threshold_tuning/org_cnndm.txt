@@ -1,0 +1,10 @@
+File: original.json
+Strategy: Balanced Accuracy
+  Threshold (from val set): 0.8036
+  Validation Strategy Score: 0.6929
+  Test Accuracy: 0.4902
+  Test Precision: 0.9578
+  Test Recall: 0.4522
+  Test F1 Score: 0.6143
+  Test Balanced Accuracy: 0.6384
+
