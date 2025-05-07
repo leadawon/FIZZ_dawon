@@ -19,3 +19,6 @@ python fizz/fizz_score.py
 - `--score_column`: Name of the column to add the computed score. `FIZZ_score` by default.
 - `--model_name`: Name of the LLM for atomic fact decomposition. `orca2` by default. There are `zephyr` and `mistral` choices.
 - `--granularity`: Granularity choice for computing FAIRY score. `3G` by default.
+
+
+[dawon_notion](https://www.notion.so/FIZZ-1e9afdf9f294805c8e8df01beefbe5a5?pvs=4)
